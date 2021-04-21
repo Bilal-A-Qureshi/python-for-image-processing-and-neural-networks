@@ -19,5 +19,5 @@ image = cv2.imread('test_image.jpg')
 lane_img = np.copy(image)
 canny = canny(lane_img)
 
-cv2.imshow("result", region_of_interest(canny))
+cv2.imshow("result",  region_of_interest(canny))
 cv2.waitKey(0)
